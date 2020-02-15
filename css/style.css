@@ -1,0 +1,169 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    position: relative;
+    background-color: #ECB390;
+}
+
+#form {
+    position: absolute;
+    width: 68.7rem;
+    height: 49.0rem;
+    left: 41.6rem;
+    top: 8.1rem;
+    padding: 5.5rem;
+
+    background-color: #DF7861;
+    border-radius: 1.0rem;
+}
+
+#form #form__form--input {
+    top: 0;
+}
+#form #form__form--input .form__event--details {
+    position: absolute;
+    font-family: 'Saira', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.0rem;
+    line-height: 3.1rem;
+    
+    color: #FCF8E8;    
+}
+
+.input__input--box #input__input--choices {
+    position: absolute;
+    width: 16.1rem;
+    height: 2.5rem;
+    left: 20rem;
+    top: 8rem;
+
+    font-family: 'Saira', sans-serif;
+
+    background: #ECDFC8;
+    border-radius: .3rem;
+}
+
+.input__input--box #input__input--title {
+    position: absolute;
+    width: 16.1rem;
+    height: 2.5rem;
+    left: 20rem;
+    top: 12.3rem;
+
+    font-family: 'Saira', sans-serif;
+
+    background: #ECDFC8;
+    border-radius: .3rem;
+}
+
+.input__input--box #input__input--dates {
+    position: absolute;
+    width: 16.1rem;
+    height: 2.5rem;
+    left: 20rem;
+    top: 17.5rem;
+
+    font-family: 'Saira', sans-serif;
+
+    background: #ECDFC8;
+    border-radius: .3rem;
+}
+
+p#posting--date--range {
+    position: absolute;
+    width: 1.9rem;
+    height: 3.1rem;
+    left: 35.4rem;
+    top: 20.5rem;
+
+    font-family: 'Saira', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 3.1rem;
+
+    color: #FCF8E8;
+}
+
+.input__input--box #input__input--postingdate {
+    position: absolute;
+    width: 12rem;
+    height: 2.5rem;
+    left: 20rem;
+    top: 22.5rem;
+
+    font-family: 'Saira', sans-serif;
+
+    background: #ECDFC8;
+    border-radius: .3rem;
+}
+
+.input__input--box #input__input--postingdate2 {
+    position: absolute;
+    width: 12rem;
+    height: 2.5rem;
+    left: 40.0rem;
+    top: 22.5rem;
+    
+    font-family: 'Saira', sans-serif;
+
+    background: #ECDFC8;
+    border-radius: .3rem;
+}
+
+#form__form--checkbox {
+    position: absolute;
+    width: 52.4rem;
+    height: 11.6rem;
+    left: 10.8rem;
+    top: 28.7rem;
+}
+
+#form__form--checkbox p {
+    color: #ECDFC8;
+}
+
+#form__form--checkbox p {
+    font-family: 'Reem Kufi', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.button {
+    position: absolute;
+    width: 20.2rem;
+    height: 2.5rem;
+    left: 1rem;
+    top: 5.7rem;
+}
+
+.button #btn__btn--save {
+    position: absolute;
+    width: 8.7rem;
+    height: 2.5rem;
+    left: 27rem;
+    top: 46.7rem;
+
+    font-family: 'Saira', sans-serif;
+
+    background: #ECDFC8;
+    border-radius: .3rem;
+}
+
+.button #btn__btn--cancel {
+    position: absolute;
+    width: 8.7rem;
+    height: 2.5rem;
+    left: 40rem;
+    top: 46.7rem;
+
+    font-family: 'Saira', sans-serif;
+
+    background: #ECDFC8;
+    border-radius: .3rem;
+}

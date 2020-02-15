@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Saira&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/index.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="form">
+        <form>
+            <div id="form__form--input">
+                <div class="form__event--details">
+                    <p id="event__event--type">Event type:</p>
+                    <p id="event__event--title">Event title:</p>
+                    <p id="event__event--dates">Event dates:</p>
+                    <p id="event__posting--date">Posting date:</p>
+                </div>
+                <div class="input__input--box">
+                    <select name="event__event--choices" id="input__input--choices">
+                        <option value="seminar" id="event__event--seminar">Seminar</option>
+                        <option value="workshop" id="event__event--workshop">Workshop</option>
+                        <option value="exhibit" id="event__event--exhibit">Exhibit</option>
+                        <option value="Party" id="event__event--party">Party</option>
+                    </select>
+                    <input type="text" name="event--title" id="input__input--title">
+                    <input type="date" name="event--dates" id="input__input--dates">
+                    <input type="date" name="posting--date" id="input__input--postingdate">
+                    <p id="posting--date--range">to</p>
+                    <input type="date" name="posting--date2" id="input__input--postingdate2">
+                </div>
+            </div>
+            <div id="form__form--checkbox">
+                <p id="p__registration--required">
+                    <input type="checkbox" name="is--registration--required?" id="input__input--required--registration">
+                    Is this registration required?
+                </p>
+
+                <p id="p__family--program">
+                    <input type="checkbox" name="is--family--program?" id="input__input--family--program">
+                    Is this event associated with any Family Programs?
+                </p>
+
+                <p id="p__auto--generated--email">
+                    <input type="checkbox" name="is--auto--generated?" id="input__input--auto--generated">
+                    Upon Registration Completion, are users to receive an Auto Generated Email?
+                </p>
+
+                <p id="p__point--of--contact">
+                    <input type="checkbox" name="is--point--of--contact?" id="input__input--point--of--contact">
+                    Is there a Point of Contact?
+                </p>
+
+                <p id="p__hosting--command--point">
+                    <input type="checkbox" name="is--hosting--command?" id="input__input--hosting--command">
+                    Is there a Hosting Command Point of Contact?
+                </p>
+            </div>
+
+            <div class="button">
+                <button id="btn__btn--save">Save</button>
+                <button id="btn__btn--cancel">Cancel</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
