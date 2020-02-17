@@ -59,7 +59,7 @@ body {
     border-radius: .3rem;
 }
 
-.input__input--box #input__input--dates {
+.input__input--box #input__input--posting--date {
     position: absolute;
     width: 16.1rem;
     height: 2.5rem;
@@ -72,7 +72,7 @@ body {
     border-radius: .3rem;
 }
 
-p#posting--date--range {
+p#event--date--range {
     position: absolute;
     width: 1.9rem;
     height: 3.1rem;
@@ -88,7 +88,7 @@ p#posting--date--range {
     color: #FCF8E8;
 }
 
-.input__input--box #input__input--postingdate {
+.input__input--box #input__input--event--date {
     position: absolute;
     width: 12rem;
     height: 2.5rem;
@@ -101,7 +101,7 @@ p#posting--date--range {
     border-radius: .3rem;
 }
 
-.input__input--box #input__input--postingdate2 {
+.input__input--box #input__input--event--date2 {
     position: absolute;
     width: 12rem;
     height: 2.5rem;

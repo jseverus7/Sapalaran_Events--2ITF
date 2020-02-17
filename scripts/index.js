@@ -4,9 +4,9 @@ const inputs = document.querySelectorAll('input');
 
 const eventType = document.getElementById('input__input--choices');
 const eventTitle = document.getElementById('input__input--title');
-const eventDates = document.getElementById('input__input--dates');
-const eventPostingDate1 = document.getElementById('input__input--postingdate');
-const eventPostingDate2 = document.getElementById('input__input--postingdate2');
+const eventPostingDate = document.getElementById('input__input--posting--date');
+const eventDate1 = document.getElementById('input__input--event--date');
+const eventDate2 = document.getElementById('input__input--event--date2');
 
 const resetFields = () => {
     for(const userInput of inputs)
@@ -16,15 +16,28 @@ const resetFields = () => {
 }
 
 const formConfirmation = () => {
+    const startEventDate = new Date(eventDate1.value);
+    const endEventDate = new Date(eventDate2.value);
+    const postingDate = new Date(eventPostingDate.value)
+
     if (
       eventType.value === "" ||
       eventTitle.value === "" ||
-      eventDates.value === "" ||
-      eventPostingDate1 === "" ||
-      eventPostingDate2 === "" 
+      eventPostingDate.value === "" ||
+      eventDate1.value === "" ||
+      eventDate2.value === "" 
     ) {
       alert("Please answer the missing areas");
-    } else {
+    }
+    else if (startEventDate > endEventDate) 
+    {
+        alert("Invalid dates");
+    }
+    else if (postingDate > startEventDate)
+    {
+        alert("Check posting date");
+    } 
+    else {
       alert("Submission sent!");
       resetFields();
     }
@@ -33,6 +46,7 @@ const formConfirmation = () => {
 const formCancellation = () => {
     resetFields();
 }
+
 
 saveButton.addEventListener('click', formConfirmation);
 cancelButton.addEventListener('click', formCancellation);
